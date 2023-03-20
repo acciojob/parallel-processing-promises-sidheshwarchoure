@@ -3,9 +3,9 @@ const images = [
   { url: 'https://picsum.photos/id/237/200/300' },
   { url: 'https://picsum.photos/id/238/200/300' },
   { url: 'https://picsum.photos/id/239/200/300' },
-  { url: 'https://picsum.photos/id/240/200/300' },
-  { url: 'https://picsum.photos/id/241/200/300' },
-];
+//   { url: 'https://picsum.photos/id/240/200/300' },
+//   { url: 'https://picsum.photos/id/241/200/300' },
+ ];
 
 function downloadImages(images) {
   const promises = images.map(image =>
